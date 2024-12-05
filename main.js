@@ -22,7 +22,7 @@ fecha.innerHTML = FECHA.toLocaleDateString('es-MX',{
 function agregarTarea(tarea, id, hecho, eliminar) {
     if (eliminar) {
         return
-    }
+    };
     const realizado = hecho ? check : uncheck;
     const LINE = hecho ? tachado : '';
     const elemento = ` <li id="elemento">
